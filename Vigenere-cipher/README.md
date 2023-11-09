@@ -1,4 +1,4 @@
-## Implementasi Algoritma Vigenere Cipher
+## Implementation of Vigenere Cipher Algorithm
 
 #### HELP
 ```
