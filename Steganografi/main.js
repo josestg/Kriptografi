@@ -10,7 +10,7 @@ app.on('window-all-closed',()=>{
 
 app.on('ready',()=>{
 	//call python
-	const subpy 	= require('child_process').spawn('python',['./core/run.py'])
+	const subpy 	= require('child_process').spawn('python',['./core/app.py'])
 	const req 		= require('request-promise')
 	const mainAddr	= 'http://localhost:1337'
 
